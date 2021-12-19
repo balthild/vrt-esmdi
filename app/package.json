@@ -1,0 +1,23 @@
+{
+  "name": "vrt-esmdi-app",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "ri": "rm -rf ./node_modules/.vite ./node_modules/eui-debug ./node_modules/testlib2 ./node_modules/.yarn-integrity && yarn"
+  },
+  "devDependencies": {
+    "vite": "^2.7.2"
+  },
+  "dependencies": {
+    "testlib2": "../testlib2"
+  },
+  "dependencies-bak": {
+    "@emotion/react": "^11.7.1",
+    "eui-debug": "file:../eui",
+    "moment": "^2.29.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
